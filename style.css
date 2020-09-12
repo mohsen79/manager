@@ -1,0 +1,102 @@
+* {
+    font-family: Rockwell;
+}
+
+#prof-ul li {
+    padding: 10px 15px;
+}
+
+#prof-ul li:hover {
+    background: lightblue;
+}
+
+#btn {
+    background: gray;
+    color: white;
+    border-radius: 0px
+}
+
+#btn:hover {
+    background: black;
+}
+
+#fixed {
+    position: fixed;
+    width: 20%;
+    margin: 60px auto;
+}
+
+.shadow {
+    box-shadow: rgb(129, 127, 127) 3px 3px 3px 3px;
+}
+
+body {
+    position: relative;
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 2 !important;
+}
+
+#nav {
+    float: left;
+    width: 100%;
+    height: 400px;
+    background: red;
+}
+
+#res {
+    width: 350px;
+    height: 500px;
+    position: fixed;
+    display: none;
+    top: 0px;
+    left: -350px;
+    z-index: 15;
+    background: rgba(255, 255, 255, 0.74);
+}
+
+#prof-ul2 li {
+    padding: 5px 15px;
+}
+
+.back {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(0, 0, 0, 0.5);
+    z-index: 10;
+}
+
+@media(max-width:770px) {
+    #dash {
+        font-size: 12px;
+    }
+    #dash h2 {
+        font-size: 15px;
+    }
+    #feed {
+        margin-top: 150px;
+    }
+}
+
+@media(max-width:600px) {
+    #feed {
+        margin-top: 80px;
+    }
+}
+
+@media(max-width:500px) {
+    #feed {
+        margin-top: 0;
+    }
+    #dash p {
+        margin-left: 60px;
+    }
+}
